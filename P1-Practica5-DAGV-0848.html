@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<!-- Define que este documento es una página web moderna con HTML5 -->
+<html lang="es">
+<!-- Inicio de la página web y especifica que el idioma principal es español -->
+
+<head>
+    <!-- La sección head contiene información invisible para el usuario, pero útil para el navegador -->
+    
+    <meta charset="UTF-8">
+    <!-- Permite que se muestren correctamente los acentos y la letra Ñ -->
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Ajusta el tamaño de la pantalla para que se vea bien en celulares y computadoras -->
+    
+    <title>Horario Semanal</title>
+    <!-- Es el título que aparece arriba en la pestaña del navegador -->
+
+    <style>
+        /* La etiqueta style sirve para darle diseño, colores y bordes a la página */
+
+        body {
+            font-family: Arial, sans-serif; /* Define el tipo de letra para toda la página */
+            background-color: #fcfbfa; /* Le da un color de fondo suave y claro */
+            padding: 20px; /* Crea un espacio alrededor de toda la página */
+        }
+
+        h1 {
+            text-align: center; /* Centra el título principal en la pantalla */
+            font-style: italic; /* Hace que el título se vea un poco inclinado/elegante */
+            color: #333333; /* Cambia el color del título a un gris oscuro */
+        }
+
+        table {
+            width: 100%; /* Hace que la tabla ocupe todo el ancho disponible */
+            border-collapse: collapse; /* Une los bordes de las celdas para que no se vean dobles */
+            background-color: #ffffff; /* Le pone fondo blanco a la tabla */
+        }
+
+        th, td {
+            border: 1px solid #cccccc; /* Dibuja una línea de borde gris delgado alrededor de cada celda */
+            padding: 12px; /* Crea espacio dentro de las celdas para que el texto no quede apretado */
+            text-align: center; /* Centra el texto horizontalmente dentro de las celdas */
+            height: 40px; /* Define una altura mínima para cada fila del horario */
+        }
+
+        th {
+            background-color: #f2f2f2; /* Le pone un tono de gris más oscuro al encabezado para resaltarlo */
+            font-weight: bold; /* Pone las letras de los días y la hora en negrita */
+        }
+    </style>
+    <!-- Fin de las instrucciones de diseño CSS -->
+</head>
+
+<body>
+    <!-- En la sección body va todo el contenido visible de la página web -->
+
+    <h1>Horario 5-J</h1>
+    <!-- Título principal visible que aparece arriba del horario -->
+
+    <table>
+        <!-- Inicio de la tabla que forma la cuadrícula del horario -->
+        
+        <thead>
+            <!-- El thead guarda la fila principal con los títulos de las columnas -->
+            <tr>
+                <!-- tr crea una fila en la tabla -->
+                <th>HORA</th> <!-- Encabezado para la columna de horas -->
+                <th>LUNES</th> <!-- Encabezado para la columna del día Lunes -->
+                <th>MARTES</th> <!-- Encabezado para la columna del día Martes -->
+                <th>MIÉRCOLES</th> <!-- Encabezado para la columna del día Miércoles -->
+                <th>JUEVES</th> <!-- Encabezado para la columna del día Jueves -->
+                <th>VIERNES</th> <!-- Encabezado para la columna del día Viernes -->
+            </tr>
+        </thead>
+
+        <tbody>
+            <!-- En el tbody van todas las filas con los datos del horario -->
+            
+            <!-- FILA 1 -->
+            <tr>
+                <td>7:00 - 8:00</td>
+                <td>LIBRE</td>
+                <td>Historia</td>
+                <td>Apli.Adm</td>
+                <td>Apli.Adm</td>
+                <td>Ingles</td>
+            </tr>
+
+            <!-- FILA 2 -->
+            <tr>
+                <td>8:00 - 9:00</td>
+                <td>LIBRE</td>
+                <td>Apli.Adm</td>
+                <td>Historia</td>
+                <td>Ingles</td>
+                <td>Historia</td>
+            </tr>
+
+            <!-- FILA 3 -->
+            <tr>
+                <td>9:00 - 10:00</td>
+                <td>Ingles</td>
+                <td>Prog M4S1</td>
+                <td>Prog M4S1</td>
+                <td>Prog M4S1</td>
+                <td>Prog M4S1</td>
+            </tr>
+
+            <!-- FILA 4 -->
+            <tr>
+                <td>10:00 - 10:50</td>
+                <td>Ciencias Naturales</td>
+                <td>Prog M4S1</td>
+                <td>Ingles</td>
+                <td>Prog M4S1</td>
+                <td>Prog M4S1</td>
+            </tr>
+
+            <!-- FILA 5 (RECESO DE 10:50 A 11:10) -->
+            <tr>
+                <td>10:50 - 11:10</td>
+                <td>RECESO</td>
+                <td>RECESO</td>
+                <td>RECESO</td>
+                <td>RECESO</td>
+                <td>RECESO</td>
+            </tr>
+
+            <!-- FILA 6 -->
+            <tr>
+                <td>11:10 - 12:00</td>
+                <td>Prog M4S2</td>
+                <td>Prog M4S2</td>
+                <td>Ciencias Naturales</td>
+                <td>Prog M4S2</td>
+                <td>Ciencias Naturales</td>
+            </tr>
+
+            <!-- FILA 7 -->
+            <tr>
+                <td>12:00 - 1:00</td>
+                <td>Formacion Socioemocional</td>
+                <td>Ingles</td>
+                <td>Ciencias Naturales</td>
+                <td>Prog M4S2</td>
+                <td>Prog M4S2</td>
+            </tr>
+
+            <!-- FILA 8 -->
+            <tr>
+                <td>1:00 - 2:00</td>
+                <td>TSdM 2</td>
+                <td>TSdM 2</td>
+                <td>TSdM 2</td>
+                <td>TSdM 2</td>
+                <td>TSdM 2</td>
+            </tr>
+
+        </tbody>
+        <!-- Fin del cuerpo con los datos de la tabla -->
+
+    </table>
+    <!-- Fin de la tabla -->
+
+</body>
+<!-- Fin del contenido visible -->
+
+</html>
